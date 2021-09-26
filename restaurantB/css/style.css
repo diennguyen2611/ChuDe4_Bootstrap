@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-main: #ff3366;
+    --header-height: 90px;
+  }
+
+.my-color{
+    color: var(--color-main)!important;
+}
+
+
+.my-logo:hover{
+    opacity: 1.0;
+}
+
+a:hover{
+    opacity: 0.8;
+}
+
+.header{
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+}
+
+.my-bg-search{
+    margin-top: 96px;
+    height: 300px;
+    background-size: cover;
+}
+
+.my-main-bg{
+    position: relative;
+}
+
+.my-search-input input[type="text"]{
+    width: 70%;
+    
+}
+
+.my-search-input input[type="button"]{
+    background-color: var(--color-main);
+    color: white;
+}
+
+.my-search-input input[type="button"]:hover{
+    opacity: 0.8;
+}
+
+.my-search-input input{
+    border-radius: 4px;
+    padding: 4px 8px;
+    border: none;
+}
+
+.my-search-input{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    bottom: auto;
+}
+
+/*explore*/
+.my-explore{
+    margin: 0 80px;   
+}
+
+.my-explore.col-md-4{
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+.my-img-explore{
+    margin-bottom: 32px;
+}
+
+.my-main{
+    padding: 48px 0;
+}
+
+.my-explore .col-md-4{
+    position: relative;
+    
+}
+
+.my-explore h5{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 5%;
+    color: #fff;
+}
+
+.my-explore img{
+    padding: 8px;
+    border-radius: 8%;
+}
+
+/*Food menu*/
+.food-menu{
+    padding: 0px 64px 0px 100px;
+}
+
+.my-row-menu{
+    margin-bottom: 32px;
+}
+
+.my-title{
+    margin-bottom: 32px;
+}
+
+.my-menu-img{
+    padding: 20px;
+}
+
+.my-menu-img img{
+    border-radius: 10%;
+}
+
+.my-price{
+    margin-bottom: 8px!important;
+}
+
+.my-order-btt{
+    background-color: var(--color-main);
+    border:none;
+}
+
+.card{
+    border-radius: 10px;
+    border: none;
+}
+
+.my-all-foods{
+    color: var(--color-main);
+    text-decoration: none;
+}
+
+.my-all-foods:hover{
+    color: var(--color-main);
+}
+
+/*Footer*/
+footer{
+    padding: 16px 0;
+}
+
+footer p{
+    padding-top: 16px;
+}
+
+footer p span{
+    color: var(--color-main);
+}
+
+
+/*P2*/
+.my-categories{
+    margin-top: 96px;
+}
+
+/*P4*/
+.my-form-main{
+    margin-top: 96px;
+    background-image: url(../img/bg_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 72px 0;
+    
+}
+
+fieldset.boder-form{
+    padding: 16px;
+    border: 1px #fff solid;
+    border-radius: 4px;
+    margin: 32px 16px;
+}
+
+legend{
+    width: inherit;
+    float: none;
+    font-size: 16px;
+}
+
+.my-bg-none{
+    background-color: inherit;
+
+}
+
+.my-description{
+    padding: 0 32px;
+}
+
+.boder-form img{
+    border-radius: 5px;
+}
+
+.boder-form p{
+    margin: 0;
+}
+
+.boder-form input{
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+}
+
+.boder-form textarea{
+    width: 100%;
+}
+
+.boder-form input[type="button"]{
+    width: inherit;
+    background-color: var(--color-main);
+    padding: 4px 8px;
+}
